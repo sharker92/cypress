@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "nodeNext",
+        "target": "ES2020",
+        "types": ["cypress"],
+        "sourceMap": true,
+        "outDir": "dist",
+    },
+    "include": ["src/**/*", "cypress"],
+    "exclude": ["dist"]
+}
+
